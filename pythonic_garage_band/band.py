@@ -21,6 +21,9 @@ class Guitarist(Musician):
     def __repr__(self):
         return f"Guitarist instance. Name = {self.name}"
 
+    def get_instrument(self):
+        return 'guitar'
+
 class Bassist(Musician):
     def __str__(self):
         return f'My name is {self.name} and I play bass'
