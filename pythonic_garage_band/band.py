@@ -25,6 +25,9 @@ class Guitarist(Musician):
     def get_instrument(self):
         return 'guitar'
 
+    def play_solo(self):
+        return 'face melting guitar solo'
+
 
 class Bassist(Musician):
     def __str__(self):
@@ -36,6 +39,9 @@ class Bassist(Musician):
     def get_instrument(self):
         return 'bass'
 
+    def play_solo(self):
+        return 'bom bom buh bom'
+
 
 class Drummer(Musician):
     def __str__(self):
@@ -46,3 +52,6 @@ class Drummer(Musician):
 
     def get_instrument(self):
         return 'drums'
+
+    def play_solo(self):
+        return 'rattle boom crash'
