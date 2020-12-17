@@ -2,7 +2,7 @@
 
 ### Author: Ashley Casimir
 
-- [Pull Request URL]() 
+- [Pull Request URL](https://github.com/ashcaz/pythonic-garage-band/pull/1) 
 
 ### Set it up
 
