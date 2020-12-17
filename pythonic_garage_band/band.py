@@ -9,6 +9,13 @@ class Band:
 
     def __repr__(self):
         return f"Band instance. name={self.name}, members={self.members}"
+    
+    def play_solos(self):
+        solos = []
+        for member in self.members:
+            solos.append(member.play_solo())
+        
+        return solos
 
 
 class Musician(Band):
