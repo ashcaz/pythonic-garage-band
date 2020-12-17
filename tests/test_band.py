@@ -30,7 +30,7 @@ def test_guitarist_str():
     assert actual == expected
 
 
-@pytest.mark.skip("pending")
+# @pytest.mark.skip("pending")
 def test_guitarist_repr():
     joan = Guitarist("Joan Jett")
     actual = repr(joan)
